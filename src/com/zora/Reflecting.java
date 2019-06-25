@@ -20,7 +20,7 @@ public class Reflecting {
     /**
      * 反射生成实例
      */
-    static void reflectCreateInstance(){
+    private static void reflectCreateInstance(){
         System.out.println("反射生成实例中：");
         try {
             Class<?> test = Class.forName("com.zora.ReflectionTesting");
@@ -35,7 +35,7 @@ public class Reflecting {
     /**
      * 反射私有构造方法
      */
-    static void reflectPrivateConstructor(){
+    private static void reflectPrivateConstructor(){
         System.out.println("反射私有构造方法中：");
         try {
             Class<?> test=Class.forName("com.zora.ReflectionTesting");
@@ -52,7 +52,7 @@ public class Reflecting {
     /**
      * 反射私有属性
      */
-    static void reflectPrivateField() {
+    private static void reflectPrivateField() {
         System.out.println("反射私有属性中：");
         try {
             Class<?> test = Class.forName("com.zora.ReflectionTesting");
@@ -69,7 +69,7 @@ public class Reflecting {
     /**
      * 反射私有方法
      */
-    static void reflectPrivateMethod() {
+    private static void reflectPrivateMethod() {
         System.out.println("反射私有方法中：");
         try {
             Class<?> test = Class.forName("com.zora.ReflectionTesting");
