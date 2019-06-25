@@ -13,10 +13,10 @@ import static java.lang.System.out;
 
 public class ArrayTest {
 
-    private static int minLength = 5;
-    private static int length = 0;
+    private static int MINLENGTH = 5;
+    private static int LENGTH = 0;
     private static int[] array;
-    private static int tail = 0;
+    private static int TAIL = 0;
 
     public static void main(String[] args) {
         ArrayTest arrayTest = new ArrayTest();
@@ -24,16 +24,16 @@ public class ArrayTest {
     }
 
 
-    private void uiModel(ArrayTest arrayTest){
+    private void uiModel(ArrayTest arrayTest) {
         Scanner scanner = new Scanner(System.in);
         out.println("输入数组大小，回车确认，小于5则采用默认值10");
-        length = Integer.parseInt(scanner.nextLine());
+        LENGTH = Integer.parseInt(scanner.nextLine());
 
-        if (length < minLength) {
-            length = 10;
+        if (LENGTH < MINLENGTH) {
+            LENGTH = 10;
         }
 
-        array = new int[length];
+        array = new int[LENGTH];
 
         while (true) {
 
@@ -59,7 +59,7 @@ public class ArrayTest {
                 case 1:
                     try {
                         arrayTest.insertArray(Integer.parseInt(scanner.nextLine()));
-                    }catch (Exception e){
+                    } catch (Exception e) {
                         out.println("Input Error");
                     }
                     break;
@@ -68,7 +68,7 @@ public class ArrayTest {
                     break;
                 case 3:
                     int[] arr = arrayTest.getArrayEntire();
-                    for (int i = 0; i < tail; i++) {
+                    for (int i = 0; i < TAIL; i++) {
                         out.println("[" + i + "] = " + arr[i]);
                     }
                     break;
@@ -87,20 +87,19 @@ public class ArrayTest {
     }
 
     private void insertArray(int ins) {
-        if(tail>=length){
+        if (TAIL >= LENGTH) {
             out.println("数组已满");
-        }else {
-            array[tail] = ins;
-            tail++;
+        } else {
+            array[TAIL] = ins;
+            TAIL++;
         }
     }
 
     private void removeArrayTail() {
-        if(tail>0){
-            tail-=1;
-            array[tail]=0;
-        }
-        else {
+        if (TAIL > 0) {
+            TAIL -= 1;
+            array[TAIL] = 0;
+        } else {
             out.println("数组已空");
         }
     }
@@ -109,7 +108,7 @@ public class ArrayTest {
         return array;
     }
 
-    private void sortArray(){
+    private void sortArray() {
         Arrays.sort(array);
     }
 }
