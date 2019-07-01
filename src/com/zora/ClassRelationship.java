@@ -25,7 +25,7 @@ public class ClassRelationship {
         /* ###普通内部类中不能声明静态方法### */
 
         /* 静态内部类中的的静态方法，直接调用 */
-        StaticInnerClass.printInternalStatic();
+        StaticInnerClass.printInnerStatic();
         System.out.println("  StaticInnerClass.printInternalStatic();");
         /* 静态内部类中的的非静态方法，需要先new一个实例然后再调用 */
         new StaticInnerClass().printInner();
@@ -68,7 +68,7 @@ public class ClassRelationship {
      * 静态内部类
      */
     static class StaticInnerClass {
-        static void printInternalStatic() {
+        static void printInnerStatic() {
             System.out.print("--静态内部类的静态方法输出");
         }
 
