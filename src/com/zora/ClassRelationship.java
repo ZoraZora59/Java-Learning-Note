@@ -7,25 +7,52 @@ package com.zora;
  */
 public class ClassRelationship {
     public static void main(String[] args) {
-        System.out.println("外部类中的用法：");
+        printClassRelationship();
+        new ClassRelationship().new PrintInnerClass().printClassRelationship();
+    }
+
+    private static void printClassRelationship() {
+        System.out.println("在外部类中调用时：");
         /* 外部类中的静态方法可以直接调用 */
         printOuterStatic();
+        System.out.println("  printOuterStatic();");
         /* 外部类中的普通方法，可以使用匿名类 */
         new ClassRelationship().printOuter();
-        /* 普通内部类中的的普通方法 */
-
-        /* 普通内部类中的的不能声明静态方法 */
+        System.out.println("  new ClassRelationship().printOuter();");
+        /* 普通内部类中的的普通方法，先new外部类的实例，再new内部类的，通过实例化得到的对象来进行调用*/
+        new ClassRelationship().new InnerClass().printInner();
+        System.out.println("  new ClassRelationship().new InnerClass().printInner();");
+        /* ###普通内部类中不能声明静态方法### */
 
         /* 静态内部类中的的静态方法，直接调用 */
         StaticInnerClass.printInternalStatic();
+        System.out.println("  StaticInnerClass.printInternalStatic();");
+        /* 静态内部类中的的非静态方法，需要先new一个实例然后再调用 */
+        new StaticInnerClass().printInner();
+        System.out.println("  new StaticInnerClass().printInner();");
+    }
+
+    /**
+     * 内部类调用展示
+     */
+    class PrintInnerClass {
+        void printClassRelationship() {
+            System.out.println("在内部类中调用时：");
+            /* 外部类的静态方法，直接调用 */
+            printOuterStatic();
+            System.out.println("  printOuterStatic();");
+            /* 外部类的普通方法，直接调用*/
+            printOuter();
+            System.out.println("  printOuter();");
+        }
     }
 
     private static void printOuterStatic() {
-        System.out.println("--静态外部类输出  printOuterStatic();");
+        System.out.print("--静态外部类输出");
     }
 
     private void printOuter() {
-        System.out.println("--外部类输出  new ClassRelationship().printOuter();");
+        System.out.print("--外部类输出");
     }
 
     /**
@@ -33,7 +60,7 @@ public class ClassRelationship {
      */
     class InnerClass {
         void printInner() {
-            System.out.println("--内部类输出");
+            System.out.print("--内部类输出");
         }
     }
 
@@ -42,11 +69,13 @@ public class ClassRelationship {
      */
     static class StaticInnerClass {
         static void printInternalStatic() {
-            System.out.println("静态内部类的静态方法输出");
+            System.out.print("--静态内部类的静态方法输出");
         }
 
         void printInner() {
-            System.out.println("静态内部类输出");
+            System.out.print("--静态内部类输出");
         }
     }
+
+
 }
