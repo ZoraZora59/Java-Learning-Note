@@ -6,12 +6,10 @@ import java.util.logging.Logger;
 /**
  * Java用三个线程按顺序循环打印 abc 三个字母,比如 abcabcabc
  * 输出10遍abc
+ * 思路：引入信号量Semaphore的机制来进行多线程调度
+ * 参考：https://www.jianshu.com/p/8908b355d91f
  *
  * @author Zora
- * <p>
- * 思路：引入信号量Semaphore的机制来进行多线程调度
- * <p>
- * 参考：https://www.jianshu.com/p/8908b355d91f
  */
 public class LoopThreadPrint {
     public static void main(String[] args) {
