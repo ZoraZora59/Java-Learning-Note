@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e86f957c-1b44-49fb-b90a-40ec16f0eacb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zora/ClassRelationship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zora/ClassRelationship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zora/Lambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zora/LambdaTestingEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zora/MemSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,35 +22,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zora/ClassRelationship.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zora/Lambda.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-              <folding>
-                <element signature="docComment;class#PrintInnerClass#0;class#ClassRelationship#0" />
-                <element signature="e#1465#1466#0" expanded="true" />
-                <element signature="e#1510#1511#0" expanded="true" />
-                <element signature="e#1543#1544#0" expanded="true" />
-                <element signature="e#1586#1587#0" expanded="true" />
-                <element signature="docComment;class#InnerClass#0;class#ClassRelationship#0" />
-                <element signature="docComment;class#StaticInnerClass#0;class#ClassRelationship#0" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/zora/MemSpace.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zora/LoopThreadPrint.java">
+        <entry file="file://$PROJECT_DIR$/src/com/zora/LambdaTestingEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="25">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#goLoop#0;class#LoopThreadPrint#0" />
-                <element signature="class#ThreadA#0;class#LoopThreadPrint#0" />
-                <element signature="class#ThreadB#0;class#LoopThreadPrint#0" />
-                <element signature="class#ThreadC#0;class#LoopThreadPrint#0" />
+                <element signature="e#77#78#0" expanded="true" />
+                <element signature="e#103#104#0" expanded="true" />
+                <element signature="e#138#139#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,16 +98,19 @@
         <option value="$PROJECT_DIR$/src/com/zora/Reflecting.java" />
         <option value="$PROJECT_DIR$/src/com/zora/ReplaceSpace.java" />
         <option value="$PROJECT_DIR$/src/com/zora/LoopABC.java" />
-        <option value="$PROJECT_DIR$/src/com/zora/ArrayTest.java" />
         <option value="$PROJECT_DIR$/src/com/zora/EightQueens.java" />
         <option value="$PROJECT_DIR$/src/com/zora/Main.java" />
         <option value="$PROJECT_DIR$/src/com/zora/LoopThreadPrint.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/zora/ClassRelationship.java" />
+        <option value="$PROJECT_DIR$/src/com/zora/LambdaTestingEntity.java" />
+        <option value="$PROJECT_DIR$/src/com/zora/ArrayTest.java" />
+        <option value="$PROJECT_DIR$/src/com/zora/Lambda.java" />
+        <option value="$PROJECT_DIR$/src/com/zora/MemSpace.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -114,6 +122,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,8 +146,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -160,20 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClassRelationship">
-    <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zora.ArrayTest" />
-      <module name="JavaTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zora.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MemSpace">
     <configuration name="ClassRelationship" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zora.ClassRelationship" />
       <module name="JavaTesting" />
@@ -200,8 +195,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoopThreadPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zora.LoopThreadPrint" />
+    <configuration name="Lambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zora.Lambda" />
       <module name="JavaTesting" />
       <extension name="coverage">
         <pattern>
@@ -226,20 +221,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MemSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zora.MemSpace" />
+      <module name="JavaTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zora.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.LoopThreadPrint" />
       <item itemvalue="Application.EightQueens" />
-      <item itemvalue="Application.ArrayTest" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.ClassRelationship" />
+      <item itemvalue="Application.Lambda" />
+      <item itemvalue="Application.MemSpace" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MemSpace" />
+        <item itemvalue="Application.Lambda" />
         <item itemvalue="Application.ClassRelationship" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.EightQueens" />
-        <item itemvalue="Application.ArrayTest" />
-        <item itemvalue="Application.LoopThreadPrint" />
       </list>
     </recent_temporary>
   </component>
@@ -256,6 +264,7 @@
       <workItem from="1561082737671" duration="11928000" />
       <workItem from="1561424436906" duration="15433000" />
       <workItem from="1561953580459" duration="6001000" />
+      <workItem from="1562050308298" duration="3613000" />
     </task>
     <task id="LOCAL-00001" summary="简略代码">
       <created>1561097468030</created>
@@ -310,7 +319,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33362000" />
+    <option name="totallyTimeSpent" value="41599000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -325,7 +334,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1076759" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.108742006" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -334,8 +343,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39696312" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39154014" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -371,7 +380,8 @@
     <MESSAGE value="八皇后问题探究" />
     <MESSAGE value="修改格式" />
     <MESSAGE value="关于内部类与外部类权限和调用的学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="关于内部类与外部类权限和调用的学习" />
+    <MESSAGE value="修复命名问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复命名问题" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/FileInputStream.java">
@@ -401,18 +411,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zora/ArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-78">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2679#2680#0" expanded="true" />
-            <element signature="e#2713#2714#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -447,17 +445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zora/ReflectionTesting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="method#incPri#0;class#ReflectionTesting#0" />
-            <element signature="method#incPub#0;class#ReflectionTesting#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zora/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -472,13 +459,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zora/ClassRelationshipPrivtate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zora/ClassRelationshipPrivtate.java" />
     <entry file="file://$PROJECT_DIR$/src/com/zora/ReplaceSpace.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -498,20 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zora/LoopThreadPrint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#goLoop#0;class#LoopThreadPrint#0" />
-            <element signature="class#ThreadA#0;class#LoopThreadPrint#0" />
-            <element signature="class#ThreadB#0;class#LoopThreadPrint#0" />
-            <element signature="class#ThreadC#0;class#LoopThreadPrint#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -524,8 +491,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zora/ClassRelationship.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="497">
+          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
           <folding>
             <element signature="docComment;class#PrintInnerClass#0;class#ClassRelationship#0" />
             <element signature="e#1465#1466#0" expanded="true" />
@@ -535,6 +502,88 @@
             <element signature="docComment;class#InnerClass#0;class#ClassRelationship#0" />
             <element signature="docComment;class#StaticInnerClass#0;class#ClassRelationship#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zora/LoopThreadPrint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#goLoop#0;class#LoopThreadPrint#0" />
+            <element signature="class#ThreadA#0;class#LoopThreadPrint#0" />
+            <element signature="class#ThreadB#0;class#LoopThreadPrint#0" />
+            <element signature="class#ThreadC#0;class#LoopThreadPrint#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zora/LambdaTestingEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding>
+            <element signature="e#77#78#0" expanded="true" />
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zora/ArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1075">
+          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2679#2680#0" expanded="true" />
+            <element signature="e#2713#2714#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zora/Lambda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zora/ReflectionTesting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="method#incPri#0;class#ReflectionTesting#0" />
+            <element signature="method#incPub#0;class#ReflectionTesting#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="288" column="15" selection-start-line="288" selection-start-column="15" selection-end-line="288" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="235" column="41" selection-start-line="235" selection-start-column="41" selection-end-line="235" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zora/MemSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
         </state>
       </provider>
     </entry>
