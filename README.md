@@ -17,4 +17,5 @@
     - [表达式的测试类](https://github.com/ZoraZora59/Java-Learning-Note/blob/master/src/com/zora/LambdaTestingEntity.java)
 - 简单算法
   - [空格替换的优化算法](https://github.com/ZoraZora59/Java-Learning-Note/blob/master/src/com/zora/ReplaceSpace.java)
+  - [最长子字符串](https://github.com/ZoraZora59/Java-Learning-Note/blob/master/src/com/zora/LongestSubstring.java)
   - [八皇后问题探究](https://github.com/ZoraZora59/Java-Learning-Note/blob/master/src/com/zora/EightQueens.java)
