@@ -8,7 +8,7 @@ package com.zora;
 public class MedianOfTwoSortedArrays {
     public static void main(String[] args) {
         int[] num1 = new int[]{1,1,2,3,6,7,8,9,9,9,1222,1333,1444};
-        int[] num2 = new int[]{2,2,3,3,4,4,5,6,7,888,1111};
+        int[] num2 = new int[]{};
 
         System.out.println("Finding median of two sorted arrays...");
 
@@ -89,25 +89,22 @@ public class MedianOfTwoSortedArrays {
     }
     /* 我的方法 */
     private double findMedianSortedArraysTypeA(int[] nums1, int[] nums2) {
-        double ret;
-
         int lengthNums1 = nums1.length;
         int lengthNums2 = nums2.length;
 
         if (lengthNums1 == 0) {
-            ret = getMedianOfSingleArray(nums2, lengthNums2);
+            return  getMedianOfSingleArray(nums2, lengthNums2);
         } else if (lengthNums2 == 0) {
-            ret = getMedianOfSingleArray(nums1, lengthNums1);
+            return  getMedianOfSingleArray(nums1, lengthNums1);
         } else {
             if ((lengthNums1 + lengthNums2) % 2 != 0) {
                 int index = (lengthNums1 + lengthNums2 + 1) / 2;
-                ret = getIndexPoint(nums1, nums2, lengthNums1, lengthNums2, index);
+                return getIndexPoint(nums1, nums2, lengthNums1, lengthNums2, index);
             } else {
                 int index = (lengthNums1 + lengthNums2) / 2;
-                ret = getIndexPoint(nums1, nums2, lengthNums1, lengthNums2, index);
+                return getIndexPoint(nums1, nums2, lengthNums1, lengthNums2, index);
             }
         }
-        return ret;
     }
     /* 大佬的方法 */
     private double findMedianSortedArraysTypeB(int[] nums1, int[] nums2) {

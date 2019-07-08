@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e86f957c-1b44-49fb-b90a-40ec16f0eacb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zora/MedianOfTwoSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zora/MedianOfTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zora/MedianOfTwoSortedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zora/ReplaceSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zora/ReplaceSpace.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,53 +20,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zora/MedianOfTwoSortedArrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
-              <folding>
-                <element signature="docComment;method#getMedianOfSingleArray#0;class#MedianOfTwoSortedArrays#0" />
-                <element signature="method#getMedianOfSingleArray#0;class#MedianOfTwoSortedArrays#0" />
-                <element signature="docComment;method#getIndexPoint#0;class#MedianOfTwoSortedArrays#0" />
-                <element signature="method#getIndexPoint#0;class#MedianOfTwoSortedArrays#0" />
-                <element signature="method#findMedianSortedArrays#0;class#MedianOfTwoSortedArrays#0" />
-                <element signature="method#findMedianSortedArrays#0;class#MedianOfTwoSortedArrays#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="435">
-                <caret line="21" column="110" selection-start-line="21" selection-start-column="110" selection-end-line="21" selection-end-column="110" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zora/ReplaceSpace.java">
+        <entry file="file://$PROJECT_DIR$/src/com/zora/LongestSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zora/ArrayTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+            <state relative-caret-position="236">
+              <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2679#2680#0" expanded="true" />
-                <element signature="e#2713#2714#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,7 +69,6 @@
         <option value="$PROJECT_DIR$/src/com/zora/ReflectionTesting.java" />
         <option value="$PROJECT_DIR$/src/com/zora/JvmStack.java" />
         <option value="$PROJECT_DIR$/src/com/zora/Reflecting.java" />
-        <option value="$PROJECT_DIR$/src/com/zora/ReplaceSpace.java" />
         <option value="$PROJECT_DIR$/src/com/zora/LoopABC.java" />
         <option value="$PROJECT_DIR$/src/com/zora/EightQueens.java" />
         <option value="$PROJECT_DIR$/src/com/zora/Main.java" />
@@ -122,8 +80,9 @@
         <option value="$PROJECT_DIR$/src/com/zora/MemSpace.java" />
         <option value="$PROJECT_DIR$/src/com/zora/AplusB.java" />
         <option value="$PROJECT_DIR$/src/com/zora/LongestSubstring.java" />
-        <option value="$PROJECT_DIR$/src/com/zora/MedianOfTwoSortedArrays.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/com/zora/MedianOfTwoSortedArrays.java" />
+        <option value="$PROJECT_DIR$/src/com/zora/ReplaceSpace.java" />
       </list>
     </option>
   </component>
@@ -185,22 +144,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MedianOfTwoSortedArrays">
+  <component name="RunManager" selected="Application.ReplaceSpace">
     <configuration name="AplusB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zora.AplusB" />
-      <module name="JavaTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zora.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zora.Lambda" />
       <module name="JavaTesting" />
       <extension name="coverage">
         <pattern>
@@ -251,20 +197,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReplaceSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zora.ReplaceSpace" />
+      <module name="JavaTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zora.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Lambda" />
       <item itemvalue="Application.MemSpace" />
       <item itemvalue="Application.AplusB" />
       <item itemvalue="Application.LongestSubstring" />
       <item itemvalue="Application.MedianOfTwoSortedArrays" />
+      <item itemvalue="Application.ReplaceSpace" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReplaceSpace" />
         <item itemvalue="Application.MedianOfTwoSortedArrays" />
         <item itemvalue="Application.LongestSubstring" />
         <item itemvalue="Application.AplusB" />
         <item itemvalue="Application.MemSpace" />
-        <item itemvalue="Application.Lambda" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +242,7 @@
       <workItem from="1561953580459" duration="6001000" />
       <workItem from="1562050308298" duration="5968000" />
       <workItem from="1562303514969" duration="7340000" />
-      <workItem from="1562548449774" duration="12400000" />
+      <workItem from="1562548449774" duration="14105000" />
     </task>
     <task id="LOCAL-00001" summary="简略代码">
       <created>1561097468030</created>
@@ -369,11 +328,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562308360739</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="两数组取中值">
+      <created>1562564985569</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1562564985569</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63694000" />
+    <option name="totallyTimeSpent" value="65399000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -388,7 +354,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1108742" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1108742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -398,7 +364,7 @@
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39154014" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39154014" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -440,7 +406,8 @@
     <MESSAGE value="更新Readme" />
     <MESSAGE value="临时测试" />
     <MESSAGE value="Longest Substring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Longest Substring" />
+    <MESSAGE value="两数组取中值" />
+    <option name="LAST_COMMIT_MESSAGE" value="两数组取中值" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/FileInputStream.java">
@@ -540,13 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zora/Lambda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -554,46 +514,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zora/LambdaTestingEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding>
-            <element signature="e#77#78#0" expanded="true" />
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#138#139#0" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zora/ClassRelationship.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-          <folding>
-            <element signature="docComment;class#PrintInnerClass#0;class#ClassRelationship#0" />
-            <element signature="docComment;class#InnerClass#0;class#ClassRelationship#0" />
-            <element signature="docComment;class#StaticInnerClass#0;class#ClassRelationship#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zora/AplusB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zora/MemSpace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="12" column="57" lean-forward="true" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -638,16 +562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zora/LongestSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zora/ArrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -660,17 +574,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zora/ReplaceSpace.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="435">
+            <caret line="21" column="110" selection-start-line="21" selection-start-column="110" selection-end-line="21" selection-end-column="110" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zora/ClassRelationship.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="478">
+          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+          <folding>
+            <element signature="docComment;class#PrintInnerClass#0;class#ClassRelationship#0" />
+            <element signature="docComment;class#InnerClass#0;class#ClassRelationship#0" />
+            <element signature="docComment;class#StaticInnerClass#0;class#ClassRelationship#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zora/Lambda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zora/LambdaTestingEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding>
+            <element signature="e#77#78#0" expanded="true" />
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zora/MedianOfTwoSortedArrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
+        <state relative-caret-position="700">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="docComment;method#getMedianOfSingleArray#0;class#MedianOfTwoSortedArrays#0" />
             <element signature="method#getMedianOfSingleArray#0;class#MedianOfTwoSortedArrays#0" />
@@ -682,13 +635,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="435">
-            <caret line="21" column="110" selection-start-line="21" selection-start-column="110" selection-end-line="21" selection-end-column="110" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/com/zora/MemSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zora/ReplaceSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding>
+            <element signature="e#352#489#0" />
+            <element signature="method#replaceSpaces#0;class#ReplaceSpace#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zora/LongestSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
