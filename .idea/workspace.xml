@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e86f957c-1b44-49fb-b90a-40ec16f0eacb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/zora/MedianOfTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zora/MedianOfTwoSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zora/ReplaceSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zora/ReplaceSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zora/LongestPalindromicSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zora/LongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zora/LongestSubstring.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,22 +18,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zora/LongestSubstring.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -79,14 +64,15 @@
         <option value="$PROJECT_DIR$/src/com/zora/Lambda.java" />
         <option value="$PROJECT_DIR$/src/com/zora/MemSpace.java" />
         <option value="$PROJECT_DIR$/src/com/zora/AplusB.java" />
-        <option value="$PROJECT_DIR$/src/com/zora/LongestSubstring.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/zora/MedianOfTwoSortedArrays.java" />
         <option value="$PROJECT_DIR$/src/com/zora/ReplaceSpace.java" />
+        <option value="$PROJECT_DIR$/src/com/zora/LongestSubstring.java" />
+        <option value="$PROJECT_DIR$/src/com/zora/LongestPalindromicSubstring.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -98,8 +84,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,6 +106,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,9 +130,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReplaceSpace">
+  <component name="RunManager" selected="Application.LongestPalindromicSubstring">
     <configuration name="AplusB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zora.AplusB" />
+      <module name="JavaTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zora.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zora.LongestPalindromicSubstring" />
       <module name="JavaTesting" />
       <extension name="coverage">
         <pattern>
@@ -184,19 +183,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zora.MemSpace" />
-      <module name="JavaTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zora.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReplaceSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zora.ReplaceSpace" />
       <module name="JavaTesting" />
@@ -211,19 +197,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MemSpace" />
       <item itemvalue="Application.AplusB" />
       <item itemvalue="Application.LongestSubstring" />
       <item itemvalue="Application.MedianOfTwoSortedArrays" />
       <item itemvalue="Application.ReplaceSpace" />
+      <item itemvalue="Application.LongestPalindromicSubstring" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestPalindromicSubstring" />
         <item itemvalue="Application.ReplaceSpace" />
         <item itemvalue="Application.MedianOfTwoSortedArrays" />
         <item itemvalue="Application.LongestSubstring" />
         <item itemvalue="Application.AplusB" />
-        <item itemvalue="Application.MemSpace" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +228,9 @@
       <workItem from="1561953580459" duration="6001000" />
       <workItem from="1562050308298" duration="5968000" />
       <workItem from="1562303514969" duration="7340000" />
-      <workItem from="1562548449774" duration="14105000" />
+      <workItem from="1562548449774" duration="14112000" />
+      <workItem from="1562571592650" duration="7190000" />
+      <workItem from="1562721013719" duration="2172000" />
     </task>
     <task id="LOCAL-00001" summary="简略代码">
       <created>1561097468030</created>
@@ -339,7 +327,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65399000" />
+    <option name="totallyTimeSpent" value="74768000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -351,10 +339,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1108742" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1130064" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -364,8 +352,8 @@
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39154014" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2624729" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.35140997" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
@@ -387,6 +375,7 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,6 +397,11 @@
     <MESSAGE value="Longest Substring" />
     <MESSAGE value="两数组取中值" />
     <option name="LAST_COMMIT_MESSAGE" value="两数组取中值" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaTesting$LongestPalindromicSubstring.ic" NAME="LongestPalindromicSubstring Coverage Results" MODIFIED="1562575255600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zora.*</FILTER>
+    </SUITE>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/FileInputStream.java">
@@ -655,8 +649,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zora/LongestSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zora/LongestPalindromicSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
