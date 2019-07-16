@@ -11,10 +11,24 @@ import java.lang.reflect.Method;
  */
 public class Reflecting {
     public static void main(String[] args) {
+        withoutReflect();
         reflectCreateInstance();
         reflectPrivateConstructor();
         reflectPrivateField();
         reflectPrivateMethod();
+    }
+
+    /**
+     * 不反射的情况下进行调用，只能调用public的
+     */
+    private static void withoutReflect(){
+        System.out.println("普通实例化：");
+        ReflectionTesting instance=new ReflectionTesting();
+        System.out.println("Public Number : " + instance.getPubNum());
+        instance.pubNum=10;
+        instance.incPub(1);
+        instance.decPub(2);
+        System.out.println("After set(10)->inc(1)->dec(2) , public Number : " + instance.getPubNum());
     }
 
     /**
@@ -83,5 +97,3 @@ public class Reflecting {
         }
     }
 }
-
-
