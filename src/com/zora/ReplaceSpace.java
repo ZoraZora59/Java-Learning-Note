@@ -42,7 +42,7 @@ public class ReplaceSpace {
         System.out.println("Output :" + string.replaceAll(" ","%20"));
         endTime = System.nanoTime();
 
-        System.out.println("系统ReplaceAll 运行时间： " + (endTime - startTime) / 1000000.0 + "ms");
+        System.out.println("系统Replace 运行时间： " + (endTime - startTime) / 1000000.0 + "ms");
     }
 
     private static String replaceSpaces(StringBuffer str) {

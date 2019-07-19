@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e86f957c-1b44-49fb-b90a-40ec16f0eacb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zora/Reflecting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zora/Reflecting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zora/ReplaceSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zora/ReplaceSpace.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,12 +19,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zora/Reflecting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="99" selection-start-line="99" selection-end-line="99" />
+            <state relative-caret-position="175">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#Reflecting#0" />
@@ -43,15 +43,103 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zora/ReflectionTesting.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/zora/ReplaceSpace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="66">
+              <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zora/Lambda.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zora/ClassRelationship.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
               <folding>
-                <element signature="method#incPri#0;class#ReflectionTesting#0" />
-                <element signature="method#incPub#0;class#ReflectionTesting#0" />
+                <element signature="docComment;class#PrintInnerClass#0;class#ClassRelationship#0" />
+                <element signature="class#PrintInnerClass#0;class#ClassRelationship#0" />
+                <element signature="docComment;class#InnerClass#0;class#ClassRelationship#0" />
+                <element signature="docComment;class#StaticInnerClass#0;class#ClassRelationship#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zora/LambdaTestingEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+              <folding>
+                <element signature="e#77#78#0" expanded="true" />
+                <element signature="e#103#104#0" expanded="true" />
+                <element signature="e#138#139#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zora/LongestPalindromicSubstring.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zora/LongestSubstring.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zora/LoopThreadPrint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#goLoop#0;class#LoopThreadPrint#0" />
+                <element signature="class#ThreadA#0;class#LoopThreadPrint#0" />
+                <element signature="class#ThreadB#0;class#LoopThreadPrint#0" />
+                <element signature="class#ThreadC#0;class#LoopThreadPrint#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zora/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -104,14 +192,14 @@
         <option value="$PROJECT_DIR$/src/com/zora/AplusB.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/zora/MedianOfTwoSortedArrays.java" />
-        <option value="$PROJECT_DIR$/src/com/zora/ReplaceSpace.java" />
         <option value="$PROJECT_DIR$/src/com/zora/LongestSubstring.java" />
         <option value="$PROJECT_DIR$/src/com/zora/LongestPalindromicSubstring.java" />
         <option value="$PROJECT_DIR$/src/com/zora/Reflecting.java" />
+        <option value="$PROJECT_DIR$/src/com/zora/ReplaceSpace.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -123,7 +211,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,6 +234,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -169,7 +257,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Reflecting">
+  <component name="RunManager" selected="Application.ReplaceSpace">
     <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zora.LongestPalindromicSubstring" />
       <module name="JavaTesting" />
@@ -244,9 +332,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReplaceSpace" />
         <item itemvalue="Application.Reflecting" />
         <item itemvalue="Application.LongestPalindromicSubstring" />
-        <item itemvalue="Application.ReplaceSpace" />
         <item itemvalue="Application.MedianOfTwoSortedArrays" />
         <item itemvalue="Application.LongestSubstring" />
       </list>
@@ -270,7 +358,10 @@
       <workItem from="1562548449774" duration="14112000" />
       <workItem from="1562571592650" duration="7190000" />
       <workItem from="1562721013719" duration="2172000" />
-      <workItem from="1563247625386" duration="1373000" />
+      <workItem from="1563247625386" duration="4242000" />
+      <workItem from="1563325532069" duration="644000" />
+      <workItem from="1563416602127" duration="27000" />
+      <workItem from="1563426743743" duration="1015000" />
     </task>
     <task id="LOCAL-00001" summary="简略代码">
       <created>1561097468030</created>
@@ -363,11 +454,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562564985569</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="反射和直接生成实例的对比">
+      <created>1563249075593</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1563249075593</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76141000" />
+    <option name="totallyTimeSpent" value="80696000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -379,10 +477,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.123667374" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12686567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -436,7 +534,8 @@
     <MESSAGE value="临时测试" />
     <MESSAGE value="Longest Substring" />
     <MESSAGE value="两数组取中值" />
-    <option name="LAST_COMMIT_MESSAGE" value="两数组取中值" />
+    <MESSAGE value="反射和直接生成实例的对比" />
+    <option name="LAST_COMMIT_MESSAGE" value="反射和直接生成实例的对比" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaTesting$LongestPalindromicSubstring.ic" NAME="LongestPalindromicSubstring Coverage Results" MODIFIED="1562575255600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -479,20 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zora/JvmStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zora/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/StringBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="573">
@@ -501,32 +586,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zora/ClassRelationshipPrivtate.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/zora/EightQueens.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1250">
-          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-          <folding>
-            <element signature="method#EightQueens#0;class#EightQueens#0" />
-            <element signature="docComment;method#showAnswer#0;class#EightQueens#0" />
-            <element signature="method#showAnswer#0;class#EightQueens#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zora/LoopThreadPrint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#goLoop#0;class#LoopThreadPrint#0" />
-            <element signature="class#ThreadA#0;class#LoopThreadPrint#0" />
-            <element signature="class#ThreadB#0;class#LoopThreadPrint#0" />
-            <element signature="class#ThreadC#0;class#LoopThreadPrint#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -566,18 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zora/ArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2679#2680#0" expanded="true" />
-            <element signature="e#2713#2714#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -588,22 +635,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zora/ClassRelationship.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zora/ReflectionTesting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        <state relative-caret-position="475">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
-            <element signature="docComment;class#PrintInnerClass#0;class#ClassRelationship#0" />
-            <element signature="docComment;class#InnerClass#0;class#ClassRelationship#0" />
-            <element signature="docComment;class#StaticInnerClass#0;class#ClassRelationship#0" />
+            <element signature="method#incPri#0;class#ReflectionTesting#0" />
+            <element signature="method#incPub#0;class#ReflectionTesting#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zora/ArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2679#2680#0" expanded="true" />
+            <element signature="e#2713#2714#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zora/EightQueens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+          <folding>
+            <element signature="method#EightQueens#0;class#EightQueens#0" />
+            <element signature="docComment;method#showAnswer#0;class#EightQueens#0" />
+            <element signature="method#showAnswer#0;class#EightQueens#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zora/JvmStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zora/MedianOfTwoSortedArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <folding>
+            <element signature="docComment;method#getMedianOfSingleArray#0;class#MedianOfTwoSortedArrays#0" />
+            <element signature="method#getMedianOfSingleArray#0;class#MedianOfTwoSortedArrays#0" />
+            <element signature="docComment;method#getIndexPoint#0;class#MedianOfTwoSortedArrays#0" />
+            <element signature="method#getIndexPoint#0;class#MedianOfTwoSortedArrays#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zora/MemSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zora/Reflecting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#Reflecting#0" />
+            <element signature="docComment;method#withoutReflect#0;class#Reflecting#0" />
+            <element signature="method#withoutReflect#0;class#Reflecting#0" />
+            <element signature="docComment;method#reflectCreateInstance#0;class#Reflecting#0" />
+            <element signature="method#reflectCreateInstance#0;class#Reflecting#0" />
+            <element signature="docComment;method#reflectPrivateConstructor#0;class#Reflecting#0" />
+            <element signature="method#reflectPrivateConstructor#0;class#Reflecting#0" />
+            <element signature="docComment;method#reflectPrivateField#0;class#Reflecting#0" />
+            <element signature="method#reflectPrivateField#0;class#Reflecting#0" />
+            <element signature="docComment;method#reflectPrivateMethod#0;class#Reflecting#0" />
+            <element signature="method#reflectPrivateMethod#0;class#Reflecting#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zora/Lambda.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="500">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -624,88 +742,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zora/MedianOfTwoSortedArrays.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zora/LongestPalindromicSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="600">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
           <folding>
-            <element signature="docComment;method#getMedianOfSingleArray#0;class#MedianOfTwoSortedArrays#0" />
-            <element signature="method#getMedianOfSingleArray#0;class#MedianOfTwoSortedArrays#0" />
-            <element signature="docComment;method#getIndexPoint#0;class#MedianOfTwoSortedArrays#0" />
-            <element signature="method#getIndexPoint#0;class#MedianOfTwoSortedArrays#0" />
-            <element signature="method#findMedianSortedArrays#0;class#MedianOfTwoSortedArrays#0" />
-            <element signature="method#findMedianSortedArrays#0;class#MedianOfTwoSortedArrays#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zora/MemSpace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zora/ReplaceSpace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding>
-            <element signature="e#352#489#0" />
-            <element signature="method#replaceSpaces#0;class#ReplaceSpace#0" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zora/LongestSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="350">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zora/LongestPalindromicSubstring.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zora/LoopThreadPrint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        <state relative-caret-position="300">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#goLoop#0;class#LoopThreadPrint#0" />
+            <element signature="class#ThreadA#0;class#LoopThreadPrint#0" />
+            <element signature="class#ThreadB#0;class#LoopThreadPrint#0" />
+            <element signature="class#ThreadC#0;class#LoopThreadPrint#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zora/ReflectionTesting.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zora/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="250">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zora/ClassRelationship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
           <folding>
-            <element signature="method#incPri#0;class#ReflectionTesting#0" />
-            <element signature="method#incPub#0;class#ReflectionTesting#0" />
+            <element signature="docComment;class#PrintInnerClass#0;class#ClassRelationship#0" />
+            <element signature="class#PrintInnerClass#0;class#ClassRelationship#0" />
+            <element signature="docComment;class#InnerClass#0;class#ClassRelationship#0" />
+            <element signature="docComment;class#StaticInnerClass#0;class#ClassRelationship#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zora/Reflecting.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#Reflecting#0" />
-            <element signature="docComment;method#withoutReflect#0;class#Reflecting#0" />
-            <element signature="method#withoutReflect#0;class#Reflecting#0" />
-            <element signature="docComment;method#reflectCreateInstance#0;class#Reflecting#0" />
-            <element signature="method#reflectCreateInstance#0;class#Reflecting#0" />
-            <element signature="docComment;method#reflectPrivateConstructor#0;class#Reflecting#0" />
-            <element signature="method#reflectPrivateConstructor#0;class#Reflecting#0" />
-            <element signature="docComment;method#reflectPrivateField#0;class#Reflecting#0" />
-            <element signature="method#reflectPrivateField#0;class#Reflecting#0" />
-            <element signature="docComment;method#reflectPrivateMethod#0;class#Reflecting#0" />
-            <element signature="method#reflectPrivateMethod#0;class#Reflecting#0" />
-          </folding>
+        <state relative-caret-position="343">
+          <caret line="2236" column="7" lean-forward="true" selection-start-line="2236" selection-start-column="7" selection-end-line="2236" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zora/ReplaceSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
         </state>
       </provider>
     </entry>
