@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e86f957c-1b44-49fb-b90a-40ec16f0eacb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/zora/DateAndTime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zora/ReplaceSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zora/ReplaceSpace.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,11 +43,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zora/ReplaceSpace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+            <state relative-caret-position="241">
+              <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/zora/DateAndTime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -64,7 +73,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zora/ClassRelationship.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
+            <state relative-caret-position="350">
               <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
               <folding>
                 <element signature="docComment;class#PrintInnerClass#0;class#ClassRelationship#0" />
@@ -196,14 +205,14 @@
         <option value="$PROJECT_DIR$/src/com/zora/LongestPalindromicSubstring.java" />
         <option value="$PROJECT_DIR$/src/com/zora/Reflecting.java" />
         <option value="$PROJECT_DIR$/src/com/zora/ReplaceSpace.java" />
+        <option value="$PROJECT_DIR$/src/com/zora/DateAndTime.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -211,6 +220,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,7 +244,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,9 +266,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReplaceSpace">
-    <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zora.LongestPalindromicSubstring" />
+  <component name="RunManager" selected="Application.DateAndTime">
+    <configuration name="DateAndTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zora.DateAndTime" />
       <module name="JavaTesting" />
       <extension name="coverage">
         <pattern>
@@ -271,8 +280,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zora.LongestSubstring" />
+    <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zora.LongestPalindromicSubstring" />
       <module name="JavaTesting" />
       <extension name="coverage">
         <pattern>
@@ -324,19 +333,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LongestSubstring" />
       <item itemvalue="Application.MedianOfTwoSortedArrays" />
       <item itemvalue="Application.ReplaceSpace" />
       <item itemvalue="Application.LongestPalindromicSubstring" />
       <item itemvalue="Application.Reflecting" />
+      <item itemvalue="Application.DateAndTime" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DateAndTime" />
         <item itemvalue="Application.ReplaceSpace" />
         <item itemvalue="Application.Reflecting" />
         <item itemvalue="Application.LongestPalindromicSubstring" />
         <item itemvalue="Application.MedianOfTwoSortedArrays" />
-        <item itemvalue="Application.LongestSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -362,6 +371,8 @@
       <workItem from="1563325532069" duration="644000" />
       <workItem from="1563416602127" duration="27000" />
       <workItem from="1563426743743" duration="1015000" />
+      <workItem from="1563500458499" duration="1199000" />
+      <workItem from="1563519505644" duration="2249000" />
     </task>
     <task id="LOCAL-00001" summary="简略代码">
       <created>1561097468030</created>
@@ -465,7 +476,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80696000" />
+    <option name="totallyTimeSpent" value="84144000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -480,7 +491,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12686567" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12899786" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -697,6 +708,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="2236" column="7" lean-forward="true" selection-start-line="2236" selection-start-column="7" selection-end-line="2236" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zora/Reflecting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -722,6 +740,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zora/ClassRelationship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding>
+            <element signature="docComment;class#PrintInnerClass#0;class#ClassRelationship#0" />
+            <element signature="class#PrintInnerClass#0;class#ClassRelationship#0" />
+            <element signature="docComment;class#InnerClass#0;class#ClassRelationship#0" />
+            <element signature="docComment;class#StaticInnerClass#0;class#ClassRelationship#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -783,30 +814,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zora/ClassRelationship.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding>
-            <element signature="docComment;class#PrintInnerClass#0;class#ClassRelationship#0" />
-            <element signature="class#PrintInnerClass#0;class#ClassRelationship#0" />
-            <element signature="docComment;class#InnerClass#0;class#ClassRelationship#0" />
-            <element signature="docComment;class#StaticInnerClass#0;class#ClassRelationship#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="2236" column="7" lean-forward="true" selection-start-line="2236" selection-start-column="7" selection-end-line="2236" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zora/ReplaceSpace.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+        <state relative-caret-position="241">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zora/DateAndTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
         </state>
       </provider>
     </entry>
