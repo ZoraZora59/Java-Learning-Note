@@ -211,6 +211,7 @@
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectId" id="1OrACJkn4z7zUUajAMi54ThSZEe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -263,7 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RSA">
+  <component name="RunManager" selected="Application.ReplaceSpace">
     <configuration name="DateAndTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zora.DateAndTime" />
       <module name="JavaTesting" />
@@ -338,9 +339,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReplaceSpace" />
         <item itemvalue="Application.RSA" />
         <item itemvalue="Application.DateAndTime" />
-        <item itemvalue="Application.ReplaceSpace" />
         <item itemvalue="Application.Reflecting" />
         <item itemvalue="Application.LongestPalindromicSubstring" />
       </list>
