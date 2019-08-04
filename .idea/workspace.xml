@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e86f957c-1b44-49fb-b90a-40ec16f0eacb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zora/ReverseInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTesting/META-INF/JavaTesting.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +32,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1Ofa9osCSl7P82WxV72MQ6T03oq" />
+  <component name="ProjectId" id="1OrACJkn4z7zUUajAMi54ThSZEe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -55,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseInteger">
+  <component name="RunManager" selected="Application.ReplaceSpace">
     <configuration name="DateAndTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zora.DateAndTime" />
       <module name="JavaTesting" />
@@ -130,11 +129,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseInteger" />
-        <item itemvalue="Application.ZigZag" />
+        <item itemvalue="Application.ReplaceSpace" />
         <item itemvalue="Application.RSA" />
         <item itemvalue="Application.DateAndTime" />
-        <item itemvalue="Application.ReplaceSpace" />
+        <item itemvalue="Application.Reflecting" />
+        <item itemvalue="Application.LongestPalindromicSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -172,6 +171,8 @@
       <workItem from="1564371154140" duration="116000" />
       <workItem from="1564377723113" duration="2937000" />
       <workItem from="1564563407439" duration="11000" />
+      <workItem from="1564020689485" duration="618000" />
+      <workItem from="1564725214126" duration="878000" />
     </task>
     <task id="LOCAL-00001" summary="简略代码">
       <created>1561097468030</created>
@@ -288,6 +289,15 @@
     <option name="localTasksCounter" value="17" />
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -299,6 +309,7 @@
             <State>
               <option name="COLUMN_ORDER" />
             </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -323,22 +334,6 @@
     <MESSAGE value="时间" />
     <MESSAGE value="Zigzag" />
     <option name="LAST_COMMIT_MESSAGE" value="Zigzag" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/zora/RSA.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/zora/RSA.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaTesting$LongestPalindromicSubstring.ic" NAME="LongestPalindromicSubstring Coverage Results" MODIFIED="1562575255600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
