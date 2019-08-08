@@ -29,19 +29,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>TAG</find>
-      <find>objectBook</find>
-      <find>width</find>
-      <find>ARRAY</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>refInstance</replace>
-      <replace>WIDTH</replace>
-      <replace>array</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
@@ -58,7 +45,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -99,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reflecting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zora.Reflecting" />
+    <configuration name="ReplaceSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zora.ReplaceSpace" />
       <module name="JavaTesting" />
       <extension name="coverage">
         <pattern>
@@ -125,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplaceSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zora.ReplaceSpace" />
+    <configuration name="ZigZag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zora.ZigZag" />
       <module name="JavaTesting" />
       <extension name="coverage">
         <pattern>
@@ -181,6 +168,14 @@
       <workItem from="1563519505644" duration="2268000" />
       <workItem from="1563787719196" duration="733000" />
       <workItem from="1563960135306" duration="2345000" />
+      <workItem from="1564020689485" duration="1241000" />
+      <workItem from="1564103356827" duration="1737000" />
+      <workItem from="1564365399429" duration="366000" />
+      <workItem from="1564366353614" duration="3888000" />
+      <workItem from="1564370962624" duration="131000" />
+      <workItem from="1564371154140" duration="116000" />
+      <workItem from="1564377723113" duration="2937000" />
+      <workItem from="1564563407439" duration="11000" />
       <workItem from="1564020689485" duration="618000" />
       <workItem from="1564725214126" duration="1589000" />
       <workItem from="1565251729612" duration="5066000" />
