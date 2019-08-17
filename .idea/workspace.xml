@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e86f957c-1b44-49fb-b90a-40ec16f0eacb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/zora/bytedance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zora/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zora/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -132,8 +133,6 @@
         <item itemvalue="Application.ReplaceSpace" />
         <item itemvalue="Application.RSA" />
         <item itemvalue="Application.DateAndTime" />
-        <item itemvalue="Application.Reflecting" />
-        <item itemvalue="Application.LongestPalindromicSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -173,6 +172,7 @@
       <workItem from="1564563407439" duration="11000" />
       <workItem from="1564020689485" duration="618000" />
       <workItem from="1564725214126" duration="878000" />
+      <workItem from="1565521210001" duration="3862000" />
     </task>
     <task id="LOCAL-00001" summary="简略代码">
       <created>1561097468030</created>
@@ -306,9 +306,6 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
             <State />
           </value>
         </entry>
