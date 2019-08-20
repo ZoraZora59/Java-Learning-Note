@@ -32,7 +32,9 @@ interface Bridgeable {
     public void method();
 }
 
-//某个类1实现该接口
+/**
+ * 某个类1实现该接口
+ */
 class BridgeSource1 implements Bridgeable {
     @Override
     public void method() {
@@ -40,7 +42,9 @@ class BridgeSource1 implements Bridgeable {
     }
 }
 
-//某个类2实现该接口
+/**
+ * 某个类2实现该接口
+ */
 class BridgeSource2 implements Bridgeable {
     @Override
     public void method() {
@@ -48,29 +52,41 @@ class BridgeSource2 implements Bridgeable {
     }
 }
 
-//定义一个抽象类桥，它持有接口的实例
+/**
+ * 定义一个抽象类桥，它持有接口的实例
+ */
 abstract class Bridge {
 
-    // 接口对应的实例
+    /**
+     * 接口对应的实例
+      */
     Bridgeable bridgeable;
 
-    // 定义和接口同名的方法
+    /**
+     * 定义和接口同名的方法
+      */
     public void method() {
         bridgeable.method();
     }
 
-    // 设置接口实例
+    /**
+     * 设置接口实例
+      */
     public void setBridgeable(Bridgeable bridgeable) {
         this.bridgeable = bridgeable;
     }
 
-    // 获取接口实例
+    /**
+     * 获取接口实例
+      */
     public Bridgeable getBridgeable() {
         return bridgeable;
     }
 }
 
-//定义一个普通类，它继承抽象类
+/**
+ * 定义一个普通类，它继承抽象类
+ */
 class MyBridge extends Bridge {
     // 定义和接口同名的方法
     @Override
