@@ -53,28 +53,24 @@ abstract class AbstractComponent {
 
     /**
      * 添加子节点
-     *
-     * @param component 节点实体
      */
     abstract void add(AbstractComponent component);
 
     /**
      * 删除子节点
-     *
-     * @param component 节点实体
      */
     abstract void remove(AbstractComponent component);
 
     /**
      * 显示结构
-     *
-     * @param depth 层级深度
      */
     abstract void function(int depth);
 }
 
 /**
  * 构件类型1：分支型
+ * 分支型特有：实现添加与删除节点功能
+ *    同时实现方法功能
  */
 class Branch extends AbstractComponent {
 
@@ -109,6 +105,7 @@ class Branch extends AbstractComponent {
 
 /**
  * 构件类型2：末端型
+ * 仅实现方法功能
  */
 class Extremity extends AbstractComponent {
 
