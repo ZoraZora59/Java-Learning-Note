@@ -26,3 +26,7 @@ hs_err_pid*
 .idea/*
 .idea/
 .idea/*.xml
+
+# MacOS
+.DS_Store
+*.DS_Store
