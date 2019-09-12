@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 
+/**
+ * 最长的子回文串
+ *
+ * @author zora
+ */
 public class LongestPalindromicSubstring {
     public static void main(String[] args) {
         String string = "ab";

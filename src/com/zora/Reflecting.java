@@ -47,7 +47,7 @@ public class Reflecting {
     }
 
     /**
-     * 反射私有构造方法
+     * 反射私有构造方法IdeaProjects/chatroom
      */
     private static void reflectPrivateConstructor(){
         System.out.println("反射私有构造方法中：");
@@ -95,5 +95,41 @@ public class Reflecting {
         } catch (Exception ex) {
             ex.printStackTrace();
         }
+    }
+}
+
+class ReflectionTesting {
+    ReflectionTesting(){
+        this.priNum=100;
+        this.pubNum=50;
+    }
+    private ReflectionTesting(int pri,int pub){
+        this.priNum=pri;
+        this.pubNum=pub;
+    }
+
+    private int priNum ;
+    int pubNum ;
+
+    private int incPri(int inc) {
+        priNum += inc;
+        return priNum;
+    }
+    private int getPriNum(){
+        return priNum;
+    }
+    private void decPri(int dec){
+        priNum-=dec;
+    }
+
+    int incPub(int inc){
+        pubNum+=inc;
+        return pubNum;
+    }
+    int getPubNum(){
+        return pubNum;
+    }
+    void decPub(int dec){
+        pubNum-=dec;
     }
 }

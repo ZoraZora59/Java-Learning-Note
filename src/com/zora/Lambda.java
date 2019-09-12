@@ -9,14 +9,13 @@ import java.util.ArrayList;
  */
 public class Lambda {
     public static void main(String[] args) {
-        ArrayList<LambdaTestingEntity> list=initList();
-        for(int i=0;i<list.size();i++) {
-            System.out.println(list.get(i).getName() + list.get(i).getAge());
-        }
+        LambdaTest plus= Integer::sum;
+        LambdaTest mul = (int a,int b)->a*b;
+        int a=5,b=10;
+        System.out.println(a+" + "+b+" = "+plus.culculate(a,b));
+        System.out.println(a+" * "+b+" = "+mul.culculate(a,b));
     }
-    private static ArrayList<LambdaTestingEntity> initList(){
-        ArrayList<LambdaTestingEntity> list=new ArrayList<>();
-        list.add(new LambdaTestingEntity());
-        return list;
+    interface LambdaTest{
+        int culculate(int a, int b);
     }
 }

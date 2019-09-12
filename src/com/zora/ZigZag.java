@@ -3,6 +3,9 @@ package com.zora;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * ZigZag Z字抖动
+ */
 public class ZigZag {
     public static void main(String[] args) {
         String s = "PAYPALISHIRING";

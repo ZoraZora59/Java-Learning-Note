@@ -13,7 +13,6 @@ public interface Clothes {
      */
     void make();
 }
-
 /**
  * 没造出来
  */

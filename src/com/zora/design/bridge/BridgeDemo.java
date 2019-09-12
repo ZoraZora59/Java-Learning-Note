@@ -65,26 +65,26 @@ abstract class AbstractBridge {
 
     /**
      * 待放入的桥接目标
-      */
+     */
     private Bridgeable bridgeable;
 
     /**
      * 使用桥接目标的方法
-      */
+     */
     public void method() {
         bridgeable.method();
     }
 
     /**
      * 设置桥接的目标
-      */
+     */
     void setBridgeable(Bridgeable bridgeable) {
         this.bridgeable = bridgeable;
     }
 
     /**
      * 获取桥接的目标
-      */
+     */
     Bridgeable getBridgeable() {
         return bridgeable;
     }

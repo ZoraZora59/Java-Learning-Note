@@ -1,12 +1,17 @@
 package com.zora;
 
+/**
+ * 回文数字
+ *
+ * @author zora
+ */
 public class ReverseInteger {
     public static void main(String[] args) {
         int input = -2147483412;
         System.out.println(new ReverseInteger().reverse(input));
     }
 
-    public int reverse(int x) {
+    private int reverse(int x) {
         if (x > -10 && x < 10) {
             return x;
         }

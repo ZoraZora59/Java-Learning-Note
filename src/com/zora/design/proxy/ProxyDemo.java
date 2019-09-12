@@ -51,7 +51,7 @@ class ProxySource implements Proxyable {
 }
 
 /**
- * 代理类实现接口并且在构造器中创建实现同样接口的类，它与装饰器模式非常类似，不同的是，类对象是在构造器中创建，而装饰器的类在外面构建传进来
+ * 静态代理
  */
 class StaticProxy implements Proxyable {
     private ProxySource proxySource = null;
@@ -68,6 +68,9 @@ class StaticProxy implements Proxyable {
     }
 }
 
+/**
+ * 动态代理
+ */
 class DynamicProxy  {
     /**
      * 配置动态代理调用

@@ -17,13 +17,12 @@ import sun.misc.BASE64Encoder;
 public class RSA {
 
 
-    public static final String KEY_ALGORITHM = "RSA";
-    //public static final String SIGNATURE_ALGORITHM = "MD5withRSA";
+    private static final String KEY_ALGORITHM = "RSA";
     private static final String PUBLIC_KEY = "RSAPublicKey";
     private static final String PRIVATE_KEY = "RSAPrivateKey";
 
     //获得公钥
-    public static String getPublicKey(Map<String, Object> keyMap) throws Exception {
+    private static String getPublicKey(Map<String, Object> keyMap) throws Exception {
         //获得map中的公钥对象 转为key对象
         Key key = (Key) keyMap.get(PUBLIC_KEY);
         //byte[] publicKey = key.getEncoded();
@@ -32,7 +31,7 @@ public class RSA {
     }
 
     //获得私钥
-    public static String getPrivateKey(Map<String, Object> keyMap) throws Exception {
+    private static String getPrivateKey(Map<String, Object> keyMap) throws Exception {
         //获得map中的私钥对象 转为key对象
         Key key = (Key) keyMap.get(PRIVATE_KEY);
         //byte[] privateKey = key.getEncoded();
@@ -46,12 +45,12 @@ public class RSA {
     }
 
     //编码返回字符串
-    public static String encryptBASE64(byte[] key) throws Exception {
+    private static String encryptBASE64(byte[] key) throws Exception {
         return (new BASE64Encoder()).encodeBuffer(key);
     }
 
     //map对象中存放公私钥
-    public static Map<String, Object> initKey() throws Exception {
+    private static Map<String, Object> initKey() throws Exception {
         //获得对象 KeyPairGenerator 参数 RSA 1024个字节
         KeyPairGenerator keyPairGen = KeyPairGenerator.getInstance(KEY_ALGORITHM);
         keyPairGen.initialize(1024);

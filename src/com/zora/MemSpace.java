@@ -10,21 +10,19 @@ import java.util.*;
 public class MemSpace {
     public static void main(String[] args) {
         System.out.println("对象的内存空间查看");
-        List<LambdaTestingEntity> list=new ArrayList<>();
+        List<MemSpaceTest> list=new ArrayList<>();
         //实例化一个对象，赋值后添加到列表中并查看效果
-        LambdaTestingEntity addOne=new LambdaTestingEntity();
-        addOne.setAge(1);
+        MemSpaceTest addOne=new MemSpaceTest();
         addOne.setName("对象1");
         list.add(addOne);
-        for(LambdaTestingEntity i:list){
-            System.out.println(i.getName()+"  "+i.getAge());
+        for(MemSpaceTest i:list){
+            System.out.println(i.getName());
         }
         //修改这个对象，再添加到列表中，发现列表中现有两个相同的项，即两次都是同一个对象，原因是只new了一次。
         addOne.setName("对象1修改后");
-        addOne.setAge(2);
         list.add(addOne);
-        for(LambdaTestingEntity i:list){
-            System.out.println(i.getName()+"  "+i.getAge());
+        for(MemSpaceTest i:list){
+            System.out.println(i.getName());
         }
         System.out.println("普通变量的内存空间查看");
         List<Integer> a=new ArrayList<>();
@@ -40,5 +38,14 @@ public class MemSpace {
         for(int i:a){
             System.out.println(i);
         }
+    }
+}
+class MemSpaceTest{
+    private String name;
+    public void setName(String name){
+        this.name=name;
+    }
+    public String getName(){
+        return this.name;
     }
 }
