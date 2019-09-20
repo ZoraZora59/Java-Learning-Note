@@ -23,3 +23,9 @@
   - [八皇后问题探究](https://github.com/ZoraZora59/Java-Learning-Note/blob/master/src/com/zora/EightQueens.java)
   - [两数组取中值](https://github.com/ZoraZora59/Java-Learning-Note/blob/master/src/com/zora/MedianOfTwoSortedArrays.java)
   - [Z字抖动](https://github.com/ZoraZora59/Java-Learning-Note/blob/master/src/com/zora/ZigZag.java)
+- 设计模式
+  - [工厂模式](https://github.com/ZoraZora59/Java-Learning-Note/blob/master/src/com/zora/design/factory)
+  - [桥接模式](https://github.com/ZoraZora59/Java-Learning-Note/blob/master/src/com/zora/design/bridge)
+  - [装饰器模式](https://github.com/ZoraZora59/Java-Learning-Note/blob/master/src/com/zora/design/decorator)
+  - [代理模式](https://github.com/ZoraZora59/Java-Learning-Note/blob/master/src/com/zora/design/proxy)
+  - [组合模式](https://github.com/ZoraZora59/Java-Learning-Note/blob/master/src/com/zora/design/composite)
