@@ -3,7 +3,6 @@
 
 ## 目录
 - 基础部分
-  - [二叉树遍历](https://github.com/ZoraZora59/Java-Learning-Note/blob/master/src/com/zora/BinaryTree.java)
   - [List中对象与变量的内存使用](https://github.com/ZoraZora59/Java-Learning-Note/blob/master/src/com/zora/MemSpace.java)
   - [Array与ArrayList](https://github.com/ZoraZora59/Java-Learning-Note/blob/master/src/com/zora/ArrayTest.java)
   - [多线程调度](https://github.com/ZoraZora59/Java-Learning-Note/blob/master/src/com/zora/LoopThreadPrint.java)
