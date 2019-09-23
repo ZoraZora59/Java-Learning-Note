@@ -13,7 +13,7 @@ public class ZigZag {
         System.out.println(new ZigZag().convert(s, rows));
     }
 
-    public String convert(String s, int numRows) {
+    private String convert(String s, int numRows) {
         if (numRows == 1) {
             return s;
         }
@@ -32,12 +32,11 @@ public class ZigZag {
             }
             row += zigOrZag ? 1 : -1;
         }
-        StringBuffer ret = new StringBuffer();
+        StringBuilder ret = new StringBuilder();
         for (StringBuffer buf : stringBuffers
         ) {
             ret.append(buf);
         }
-        String retString = ret.toString();
-        return retString;
+        return ret.toString();
     }
 }
