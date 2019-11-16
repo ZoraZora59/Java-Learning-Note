@@ -9,7 +9,7 @@
   - [多线程调度](https://github.com/ZoraZora59/Java-Learning-Note/blob/master/src/com/zora/LoopThreadPrint.java)
   - [时间与日期转换](https://github.com/ZoraZora59/Java-Learning-Note/blob/master/src/com/zora/DateAndTime.java)
   - [RSA加密](https://github.com/ZoraZora59/Java-Learning-Note/blob/master/src/com/zora/RSA.java)
-  - [内部类与外部类之间的权限与调用](https://github.com/ZoraZora59/Java-Learning-Note/blob/master/src/com/zora/ClassRelationship.java)
+  - [内部类与外部类之间的权限与调用](https://github.com/ZoraZora59/Java-Learning-Note/blob/master/src/com/zora/ClassRelationship.java)  
 - 特性部分
   - [JVM的栈调用深度](https://github.com/ZoraZora59/Java-Learning-Note/blob/master/src/com/zora/JvmStack.java)
   - [类转换的效率](https://github.com/ZoraZora59/Java-Learning-Note/blob/master/src/com/zora/TransformCompare.java)
@@ -24,6 +24,7 @@
   - [八皇后问题探究](https://github.com/ZoraZora59/Java-Learning-Note/blob/master/src/com/zora/EightQueens.java)
   - [两数组取中值](https://github.com/ZoraZora59/Java-Learning-Note/blob/master/src/com/zora/MedianOfTwoSortedArrays.java)
   - [Z字抖动](https://github.com/ZoraZora59/Java-Learning-Note/blob/master/src/com/zora/ZigZag.java)
+  - [链表反转](https://github.com/ZoraZora59/Java-Learning-Note/blob/master/src/com/zora/LinkedNodeReverse.java)
 - 设计模式
   - [工厂模式](https://github.com/ZoraZora59/Java-Learning-Note/blob/master/src/com/zora/design/factory)
   - [桥接模式](https://github.com/ZoraZora59/Java-Learning-Note/blob/master/src/com/zora/design/bridge)
