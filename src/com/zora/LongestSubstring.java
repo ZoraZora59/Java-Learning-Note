@@ -1,7 +1,6 @@
 package com.zora;
 
-import java.util.LinkedList;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * LeetCode https://leetcode.com/problems/longest-substring-without-repeating-characters/
@@ -24,21 +23,22 @@ public class LongestSubstring {
         if (s.isEmpty()){
             return 0;
         }
-        LinkedList son=new LinkedList();
+        Queue<Character> son=new LinkedList<>();
         int maxCount=0;
         char index;
-        for (int i = 0; i < s.length(); i++) {
-            index=s.charAt(i);
-            if(!son.contains(index)){
+        char[] array=s.toCharArray();
+        for (char c : array) {
+            index = c;
+            if (!son.contains(index)) {
                 son.add(index);
-            }else {
-                if(maxCount<son.size()){
-                    maxCount=son.size();
+            } else {
+                if (maxCount < son.size()) {
+                    maxCount = son.size();
                 }
-                while(!son.getFirst().equals(index)){
-                    son.pop();
+                while (!son.isEmpty()&&!son.peek().equals(index)) {
+                    son.poll();
                 }
-                son.pop();
+                son.poll();
                 son.add(index);
             }
         }

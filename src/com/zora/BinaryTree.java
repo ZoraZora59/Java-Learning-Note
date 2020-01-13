@@ -21,12 +21,12 @@ public class BinaryTree {
     }
 
     private static BTree build() {
-        BTree root = new BTree("A");
-        BTree point1 = new BTree("B");
-        BTree point2 = new BTree("C");
-        BTree point3 = new BTree("D");
-        BTree point4 = new BTree("E");
-        BTree point5 = new BTree("F");
+        BTree root = new BTree("1");
+        BTree point1 = new BTree("2");
+        BTree point2 = new BTree("3");
+        BTree point3 = new BTree("4");
+        BTree point4 = new BTree("5");
+        BTree point5 = new BTree("6");
         root.left = point1;
         root.right = point2;
         point1.left = point3;

@@ -1,7 +1,5 @@
 package com.zora;
 
-import java.util.Scanner;
-
 /**
  * 替换空格
  * 来源：AcWing

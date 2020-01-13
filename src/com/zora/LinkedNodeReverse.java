@@ -75,10 +75,10 @@ public class LinkedNodeReverse {
 
 //节点
 class LinkNode {
+    int value;
+    LinkNode next;
+
     LinkNode(int value) {
         this.value = value;
     }
-
-    int value;
-    LinkNode next;
 }
